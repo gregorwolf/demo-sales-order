@@ -46,11 +46,13 @@
   {
                 
         @UI.lineItem.position: 10
+        @UI.identification.position: 10
         @UI.lineItem: 
         [
-         { type: #FOR_ACTION, position: 1, dataAction: 'BOPF:SET_TO_PAID', label: 'Set to Paid' }
+         { type: #FOR_ACTION, position: 1, dataAction: 'BOPF:SET_TO_PAID', label: 'Set to Paid' },
+         { type: #FOR_INTENT_BASED_NAVIGATION, semanticObjectAction: 'manage' }
         ]        
-        @UI.identification.position: 10
+        @Consumption.semanticObject: 'SalesOrder'
         key Document.SalesOrder,
                 
         @UI.lineItem.position: 20
@@ -103,6 +105,13 @@
                       
         /* Exposing value via associations */ 
         @UI.lineItem:  { value: '.CompanyName', position: 15 }
+        @UI.fieldGroup: [
+          {
+            position: 10,
+            qualifier: 'BusinessPartner',
+            value: '.CompanyName'
+          }
+        ]
         Document._BusinessPartner,
                 
         Document._Currency,   
