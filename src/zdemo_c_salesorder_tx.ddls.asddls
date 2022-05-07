@@ -101,6 +101,13 @@
         @UI.lineItem.position: 40
         @UI.selectionField.position: 40
         @UI.identification.position: 40
+        @UI.fieldGroup: [
+          {
+            type: #STANDARD,
+            position: 3 ,
+            qualifier: 'OrderValue'
+          }
+        ]
         Document.OverallStatus,
                       
         /* Exposing value via associations */ 
