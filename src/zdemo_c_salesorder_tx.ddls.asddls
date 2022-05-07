@@ -39,6 +39,17 @@
     purpose: #STANDARD
   }
 ]
+
+@UI.selectionVariant: [
+  {
+    qualifier: 'BackendNotPaid',
+      parameters: [{name: 'PropertyName', value: 'OverallStatus' },{ name: 'PropertyValue', value: ''}]
+  },
+  {
+    qualifier: 'BackendPaid',
+      parameters: [{name: 'PropertyName', value: 'OverallStatus' },{ name: 'PropertyValue', value: 'P'}]
+  }
+]             
              
   define view ZDEMO_C_SalesOrder_TX
         as select from ZDEMO_I_SalesOrder_TX as Document
@@ -50,6 +61,7 @@
         @UI.lineItem: 
         [
          { type: #FOR_ACTION, position: 1, dataAction: 'BOPF:SET_TO_PAID', label: 'Set to Paid' },
+         { type: #FOR_ACTION, position: 2, dataAction: 'BOPF:SET_TO_NOT_PAID', label: 'Set to not Paid' },
          { type: #FOR_INTENT_BASED_NAVIGATION, semanticObjectAction: 'manage' }
         ]        
         @Consumption.semanticObject: 'SalesOrder'
@@ -119,11 +131,13 @@
             value: '.CompanyName'
           }
         ]
-        Document._BusinessPartner,
-                
-        Document._Currency,   
-        Document._BillingStatus, 
+        Document._BusinessPartner,                
+        Document._Currency,
+        Document._BillingStatus,
         Document._OverallStatus,
+        @UI.lineItem:  { position: 80 }
+        @UI.selectionField.position: 80
+        Document.CreatedAt,
         /* Exposing value via associations */ 
         @ObjectModel.association.type:  [ #TO_COMPOSITION_CHILD ]
         _Item   
