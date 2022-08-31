@@ -53,6 +53,11 @@ association [0..*] to ZDEMO_I_SalesOrderItem_TX   as _Item on $projection.SalesO
     @ObjectModel.foreignKey.association: '_OverallStatus'
     SalesOrder.overallstatus            as OverallStatus,
     
+    cast( case overallstatus
+      when 'P' then ' '
+      else 'X'
+    end as boolean ) as CustomSetToPaid_ac,
+    
     SalesOrder.crea_date_time as CreatedAt,
     /* Exposed associations */ 
     @ObjectModel.association.type: [#TO_COMPOSITION_CHILD]

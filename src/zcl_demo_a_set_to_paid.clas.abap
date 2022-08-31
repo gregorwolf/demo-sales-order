@@ -1,23 +1,23 @@
-class ZCL_DEMO_A_SET_TO_PAID definition
-  public
-  inheriting from /BOBF/CL_LIB_A_SUPERCL_SIMPLE
-  final
-  create public .
+CLASS zcl_demo_a_set_to_paid DEFINITION
+  PUBLIC
+  INHERITING FROM /bobf/cl_lib_a_supercl_simple
+  FINAL
+  CREATE PUBLIC .
 
-public section.
+  PUBLIC SECTION.
 
-  methods /BOBF/IF_FRW_ACTION~EXECUTE
-    redefinition .
-protected section.
-private section.
+    METHODS /bobf/if_frw_action~execute
+        REDEFINITION .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS ZCL_DEMO_A_SET_TO_PAID IMPLEMENTATION.
+CLASS zcl_demo_a_set_to_paid IMPLEMENTATION.
 
 
-  method /BOBF/IF_FRW_ACTION~EXECUTE.
+  METHOD /bobf/if_frw_action~execute.
     " Typed with node's combined table type
     DATA(lt_sales_order) = VALUE ztdemo_i_salesorder_tx( ).
 
@@ -60,5 +60,5 @@ CLASS ZCL_DEMO_A_SET_TO_PAID IMPLEMENTATION.
     ENDLOOP.
 
 
-  endmethod.
+  ENDMETHOD.
 ENDCLASS.

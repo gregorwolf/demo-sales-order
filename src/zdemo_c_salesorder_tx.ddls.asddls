@@ -60,14 +60,19 @@
         @UI.identification.position: 10
         @UI.lineItem: 
         [
-         { type: #FOR_ACTION, position: 1, dataAction: 'BOPF:SET_TO_PAID', label: 'Set to Paid' },
+         { type: #FOR_ACTION, position: 1, dataAction: 'BOPF:SET_TO_PAID', label: 'Set to Paid'  },
          { type: #FOR_ACTION, position: 2, dataAction: 'BOPF:SET_TO_NOT_PAID', label: 'Set to not Paid' },
          { type: #FOR_INTENT_BASED_NAVIGATION, semanticObjectAction: 'manage' }
         ]        
         @Consumption.semanticObject: 'SalesOrder'
         key Document.SalesOrder,
+        Document.CustomSetToPaid_ac,
                 
         @UI.lineItem.position: 20
+        @UI.lineItem:
+        [
+         { type: #FOR_INTENT_BASED_NAVIGATION, semanticObjectAction: 'display' }
+        ]  
         @UI.identification.position: 20
         @UI.fieldGroup: [
           {
@@ -78,6 +83,7 @@
           }
         ]
         @UI.selectionField.position: 10
+        @Consumption.semanticObject: 'EPMBusinessPartner'
         Document.BusinessPartner,
                 
         Document.CurrencyCode,
@@ -142,5 +148,6 @@
         @ObjectModel.association.type:  [ #TO_COMPOSITION_CHILD ]
         _Item   
                 
-  }                        
+  }
+  // where OverallStatus = ' '              
                             
