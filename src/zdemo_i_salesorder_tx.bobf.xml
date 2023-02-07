@@ -501,186 +501,204 @@
     </item>
     <item>
      <POS>14</POS>
-     <NAME>ESR_PARAM_DATA_T</NAME>
+     <NAME>PARAM_CDS_ABSTRACT_ENTITY</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>30</LENGTH>
     </item>
     <item>
      <POS>15</POS>
+     <NAME>ESR_PARAM_DATA_T</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <POS>16</POS>
      <NAME>EDIT_MODE</NAME>
      <TYPE_KIND>b</TYPE_KIND>
      <LENGTH>3</LENGTH>
     </item>
     <item>
-     <POS>16</POS>
+     <POS>17</POS>
      <NAME>EXEC_ONLY_ALL</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>1</LENGTH>
     </item>
     <item>
-     <POS>17</POS>
+     <POS>18</POS>
      <NAME>MSGID_SUCCESS</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>20</LENGTH>
     </item>
     <item>
-     <POS>18</POS>
+     <POS>19</POS>
      <NAME>MSGNO_SUCCESS</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>3</LENGTH>
     </item>
     <item>
-     <POS>19</POS>
+     <POS>20</POS>
      <NAME>MSGID_ERROR</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>20</LENGTH>
     </item>
     <item>
-     <POS>20</POS>
+     <POS>21</POS>
      <NAME>MSGNO_ERROR</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>3</LENGTH>
     </item>
     <item>
-     <POS>21</POS>
+     <POS>22</POS>
      <NAME>MSGID_CHECK</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>20</LENGTH>
     </item>
     <item>
-     <POS>22</POS>
+     <POS>23</POS>
      <NAME>MSGNO_CHECK</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>3</LENGTH>
     </item>
     <item>
-     <POS>23</POS>
+     <POS>24</POS>
      <NAME>ALIAS_ACTION</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>30</LENGTH>
     </item>
     <item>
-     <POS>24</POS>
+     <POS>25</POS>
      <NAME>SP_MAPPER_CLASS</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>30</LENGTH>
     </item>
     <item>
-     <POS>25</POS>
+     <POS>26</POS>
      <NAME>USE_PROXY_TYPE</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>1</LENGTH>
     </item>
     <item>
-     <POS>26</POS>
+     <POS>27</POS>
      <NAME>PREPARE_IMPL</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>1</LENGTH>
     </item>
     <item>
-     <POS>27</POS>
+     <POS>28</POS>
      <NAME>TD_CONTAINER</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>30</LENGTH>
     </item>
     <item>
-     <POS>28</POS>
+     <POS>29</POS>
      <NAME>TD_CONTAINER_VAR</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>30</LENGTH>
     </item>
     <item>
-     <POS>29</POS>
+     <POS>30</POS>
      <NAME>CHK_ACT_ALSO_INT</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>1</LENGTH>
     </item>
     <item>
-     <POS>30</POS>
+     <POS>31</POS>
      <NAME>BASE_ACTION_KEY</NAME>
      <TYPE_KIND>X</TYPE_KIND>
      <LENGTH>16</LENGTH>
     </item>
     <item>
-     <POS>31</POS>
+     <POS>32</POS>
      <NAME>EXTENDIBLE</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>1</LENGTH>
     </item>
     <item>
-     <POS>32</POS>
+     <POS>33</POS>
      <NAME>EXPORT_PARAM</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>1</LENGTH>
     </item>
     <item>
-     <POS>33</POS>
+     <POS>34</POS>
      <NAME>EXPORT_PARAM_S</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>30</LENGTH>
     </item>
     <item>
-     <POS>34</POS>
+     <POS>35</POS>
      <NAME>EXPORT_PARAM_TT</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>30</LENGTH>
     </item>
     <item>
-     <POS>35</POS>
+     <POS>36</POS>
+     <NAME>EXPORT_PARAM_CDS_ABSTR_ENTITY</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <POS>37</POS>
      <NAME>EXPORT_PARAM_BO</NAME>
      <TYPE_KIND>X</TYPE_KIND>
      <LENGTH>16</LENGTH>
     </item>
     <item>
-     <POS>36</POS>
+     <POS>38</POS>
      <NAME>EXPORT_PARAM_ND</NAME>
      <TYPE_KIND>X</TYPE_KIND>
      <LENGTH>16</LENGTH>
     </item>
     <item>
-     <POS>37</POS>
+     <POS>39</POS>
      <NAME>EXPORT_CARDINALITY</NAME>
      <TYPE_KIND>b</TYPE_KIND>
      <LENGTH>3</LENGTH>
     </item>
     <item>
-     <POS>38</POS>
+     <POS>40</POS>
+     <NAME>EXPORT_PARAM_LINK_TO_INSTANCE</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>1</LENGTH>
+    </item>
+    <item>
+     <POS>41</POS>
      <NAME>ACT_ANNOTATION</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>10</LENGTH>
     </item>
     <item>
-     <POS>39</POS>
+     <POS>42</POS>
      <NAME>OBJECT_MODEL_GENERATED</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>1</LENGTH>
     </item>
     <item>
-     <POS>40</POS>
+     <POS>43</POS>
      <NAME>LAST_RELEVANT_DDIC_CHANGE</NAME>
      <TYPE_KIND>P</TYPE_KIND>
      <LENGTH>8</LENGTH>
     </item>
     <item>
-     <POS>41</POS>
+     <POS>44</POS>
      <NAME>CREATE_USER</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>12</LENGTH>
     </item>
     <item>
-     <POS>42</POS>
+     <POS>45</POS>
      <NAME>CREATE_TIME</NAME>
      <TYPE_KIND>P</TYPE_KIND>
      <LENGTH>8</LENGTH>
     </item>
     <item>
-     <POS>43</POS>
+     <POS>46</POS>
      <NAME>CHANGE_USER</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>12</LENGTH>
     </item>
     <item>
-     <POS>44</POS>
+     <POS>47</POS>
      <NAME>CHANGE_TIME</NAME>
      <TYPE_KIND>P</TYPE_KIND>
      <LENGTH>8</LENGTH>
@@ -2853,42 +2871,126 @@
     </item>
     <item>
      <POS>53</POS>
+     <NAME>OBJECT_MODEL_DELETED_IND</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>1</LENGTH>
+    </item>
+    <item>
+     <POS>54</POS>
      <NAME>LAST_RELEVANT_DDIC_CHANGE</NAME>
      <TYPE_KIND>P</TYPE_KIND>
      <LENGTH>8</LENGTH>
     </item>
     <item>
-     <POS>54</POS>
+     <POS>55</POS>
      <NAME>DRAFT_CLASS</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>30</LENGTH>
     </item>
     <item>
-     <POS>55</POS>
+     <POS>56</POS>
      <NAME>OBJECT_MDL_LASTSTATECHANGEID</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>30</LENGTH>
     </item>
     <item>
-     <POS>56</POS>
+     <POS>57</POS>
+     <NAME>DRAFT_DATA_TYPE</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <POS>58</POS>
+     <NAME>OBJECT_MDL_DRAFT_PERSISTENCE</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <POS>59</POS>
+     <NAME>DRAFT_PERSISTENCE_KEY_TYPE</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>1</LENGTH>
+    </item>
+    <item>
+     <POS>60</POS>
+     <NAME>ACTIVE_PERSISTENCE_KEY_TYPE</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>1</LENGTH>
+    </item>
+    <item>
+     <POS>61</POS>
+     <NAME>SEMANTICS_CREATED_AT</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <POS>62</POS>
+     <NAME>SEMANTICS_CREATED_AT_DATE</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <POS>63</POS>
+     <NAME>SEMANTICS_CREATED_AT_TIME</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <POS>64</POS>
+     <NAME>SEMANTICS_CREATED_BY</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <POS>65</POS>
+     <NAME>SEMANTICS_LAST_CHANGED_AT</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <POS>66</POS>
+     <NAME>SEMANTICS_LAST_CHANGED_AT_DATE</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <POS>67</POS>
+     <NAME>SEMANTICS_LAST_CHANGED_AT_TIME</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <POS>68</POS>
+     <NAME>SEMANTICS_LAST_CHANGED_BY</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <POS>69</POS>
+     <NAME>OBJECT_MODEL_DATA_CATEGORY</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <POS>70</POS>
      <NAME>CREATE_USER</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>12</LENGTH>
     </item>
     <item>
-     <POS>57</POS>
+     <POS>71</POS>
      <NAME>CREATE_TIME</NAME>
      <TYPE_KIND>P</TYPE_KIND>
      <LENGTH>8</LENGTH>
     </item>
     <item>
-     <POS>58</POS>
+     <POS>72</POS>
      <NAME>CHANGE_USER</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>12</LENGTH>
     </item>
     <item>
-     <POS>59</POS>
+     <POS>73</POS>
      <NAME>CHANGE_TIME</NAME>
      <TYPE_KIND>P</TYPE_KIND>
      <LENGTH>8</LENGTH>
@@ -3239,39 +3341,57 @@
     </item>
     <item>
      <POS>42</POS>
+     <NAME>FEATURE_ANNOTATION</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>255</LENGTH>
+    </item>
+    <item>
+     <POS>43</POS>
+     <NAME>SMART_VALIDATIONS</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>1</LENGTH>
+    </item>
+    <item>
+     <POS>44</POS>
      <NAME>CREATE_USER</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>12</LENGTH>
     </item>
     <item>
-     <POS>43</POS>
+     <POS>45</POS>
      <NAME>CREATE_TIME</NAME>
      <TYPE_KIND>P</TYPE_KIND>
      <LENGTH>8</LENGTH>
     </item>
     <item>
-     <POS>44</POS>
+     <POS>46</POS>
      <NAME>CHANGE_USER</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>12</LENGTH>
     </item>
     <item>
-     <POS>45</POS>
+     <POS>47</POS>
      <NAME>CHANGE_TIME</NAME>
      <TYPE_KIND>P</TYPE_KIND>
      <LENGTH>8</LENGTH>
     </item>
     <item>
-     <POS>46</POS>
+     <POS>48</POS>
      <NAME>LAST_CHANGE_USER</NAME>
      <TYPE_KIND>C</TYPE_KIND>
      <LENGTH>12</LENGTH>
     </item>
     <item>
-     <POS>47</POS>
+     <POS>49</POS>
      <NAME>LAST_CHANGE_TIME</NAME>
      <TYPE_KIND>P</TYPE_KIND>
      <LENGTH>8</LENGTH>
+    </item>
+    <item>
+     <POS>50</POS>
+     <NAME>IS_RAP_BO</NAME>
+     <TYPE_KIND>C</TYPE_KIND>
+     <LENGTH>1</LENGTH>
     </item>
    </_-BOBF_-OBM_OBJ_field_catalog>
    <_-BOBF_-OBM_OBJT>
