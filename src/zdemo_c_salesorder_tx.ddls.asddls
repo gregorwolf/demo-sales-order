@@ -4,7 +4,7 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Sales Order for transactional app'
                 
-@OData.publish: true
+// @OData.publish: true
 
 @VDM.viewType: #CONSUMPTION
                 
@@ -25,7 +25,7 @@
 }
 
 // Not exposed in 7.50
-@UI.Facet: [
+@UI.facet: [
   {
     label: 'BusinessPartner',
     targetQualifier: 'BusinessPartner',

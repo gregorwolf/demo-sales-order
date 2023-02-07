@@ -6,6 +6,7 @@
     <DDLNAME>ZDEMO_I_SALESORDER_TX</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
     <DDTEXT>Sales Order for transactional app</DDTEXT>
+    <SOURCE_TYPE>V</SOURCE_TYPE>
    </DDLS>
   </asx:values>
  </asx:abap>
