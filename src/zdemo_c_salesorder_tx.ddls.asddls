@@ -4,7 +4,7 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Sales Order for transactional app'
                 
-// @OData.publish: true
+@OData.publish: true
 
 @VDM.viewType: #CONSUMPTION
                 
